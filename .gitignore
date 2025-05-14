@@ -1,0 +1,40 @@
+# Файлы сборки и бинарники
+/bin/
+/go-core-task
+*.exe
+*.exe~
+*.so
+*.dll
+
+# Папка зависимостей Go
+/vendor/
+/go.sum
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.test
+
+# Конфигурационные файлы окружения
+.env
+.env.local
+.env*.local
+
+# Автогенерируемые файлы
+.DS_Store
+Thumbs.db
+
+# Go workspace файлы
+go.work
+go.work.sum
+
+# Тестовые покрытия
+coverage.out
+coverage.html
