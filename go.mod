@@ -1,3 +1,3 @@
-module go_core_task
+module go-core-task
 
 go 1.24
